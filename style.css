@@ -1,0 +1,32 @@
+*{padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;}
+    body{background-color: lightblue;}
+    .cantin{width: 600px;
+    height: 450px;
+    background-color: lightgray;
+        margin: 200px auto;
+        border-radius: 10px 25px 10px 25px;
+        box-shadow: 0 0 20px rgb(40,40,78);
+        position: relative;
+    }
+    .carli{height: 100%;
+        width: 200px;
+    
+    position: absolute;
+    left: 30px;
+    top: -30px;
+     border-radius: 10px 25px 10px 25px;
+        box-shadow: 0 0 20px rgb(40,40,78);
+    overflow: hidden;}
+    .bio{width: 350px;
+    position: absolute;
+    right: 0px;
+    padding: 20px;
+    text-align: justify;
+        text-indent: 10px;
+    }
+    p i{margin-left: 10px;
+    font-size: 12px;
+    margin-top: 30px;
+        text-transform:lowercase;}
